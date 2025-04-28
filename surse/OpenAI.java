@@ -4,7 +4,7 @@ import java.net.URL;
 import java.nio.charset.StandardCharsets;
 
 public class OpenAI {
-    private static final String API_KEY = "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";
+    private static final String API_KEY = "key_here";
     private static final String API_URL = "https://api.openai.com/v1/engines/davinci-codex/completions";
 
     public String createNotification(String prompt) {
